@@ -1,0 +1,24 @@
+.card {
+  width: 280px;
+  height: 192px;
+}
+
+.metric-card-title {
+  color: #8e2424;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -2px;
+}
+
+.title-card {
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+.description-card {
+  line-height: 24px;
+  margin-top: 8px;
+  color: #667085;
+}

@@ -1,0 +1,49 @@
+:root {
+  --fonte-padrao: "Inter", sans-serif;
+  --cinza-escuro: #3a404e;
+  --cinza-claro: #667085;
+  --vermelho-escuro: #8e2424;
+  --vermelho-claro: rgba(142, 36, 36, 0.05);
+  --branco: #fff;
+  --branco-escuro: #f9fafb;
+  --preto-claro: #101828;
+}
+.div-colaboradores {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.colaboradores-avaliacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 75%;
+  height: 400px;
+
+  border-radius: 10px;
+  text-align: center;
+  background-color: var(--vermelho-claro);
+  padding: 1rem 80px;
+  gap: 20px;
+}
+
+.subtitulo-colaboradores {
+  color: var(--vermelho-escuro);
+  font-weight: 600;
+}
+.subtitulo-destaque-colaboradores {
+  font-size: 38px;
+  font-weight: 500;
+  color: var(--preto-claro);
+}
+.usuario-nome {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.usuario-profissao {
+  color: var(--cinza-claro);
+}
